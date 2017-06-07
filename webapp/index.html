@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="assets/style/style.css">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Italianno" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Cormorant Garamond", serif}
+.w3-bar,h1,button {font-family: "Italianno", sans-serif}
+.bgimg, .bgimg2 {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg {background-image: url(assets/images/construction_site.jpg);}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Start</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Programm</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Anmeldung</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Kontakt</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Impressum</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Programm</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Anmeldung</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Kontakt</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Impressum</a>
+  </div>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min w3-padding-64">
+  <h1 class="w3-margin-top w3-margin w3-jumbo w3-text-white">Jubiläum 20 Jahre Flughafen Berlin-Brandenburg</h1>
+  <p class="w3-margin w3-jumbo w3-text-white">Ein Rückblick auf zwei Jahrzehnte seit Beginn der BER-Bauarbeiten</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Hier gehts zur Baustelle!</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Symposium und Feierlichkeiten <br>05.-07. August 2026</br></h1>
+      <h5 class="w3-padding-32 w3-text-blue">Festrede von Abc: "Eine Stadt wächst mit ihren Baustellen".</h5>
+      <p class="w3-text-grey w3-large">Sechs Fachvorträge aus den Bereichen Ingenieurwissenschaften, Architektur, Wirtschaftswissenschaften und Kommunikationswissenschaften.</p>
+    </div>
+
+    <div class="w3-third w3-padding-small">
+      <img src="assets/images/plane.jpg" alt="[Ein Flugzeug über einem Hochhaus aus der Froschperspektive.]" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-padding-small">
+      <img src="assets/images/Ingenieur_am_Reissbrett.jpg" alt="[Ingenieur am Reissbrett.]" style="width:100%">
+    </div>
+
+    <div class="w3-twothird">
+      
+      <p class="w3-text-grey w3-large">Zwei interaktive Workshops.</p>
+      <h5 class="w3-padding-32 w3-text-blue">Dr. XYZ von der Hochschule BlaBlub: Kritische Einschätzung zu Max Mustermanns jüngster Behauptung "Unsere Kinder werden die Eröffnung von BER noch erleben!"</h5>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+        <h5 class="w3-padding-32 w3-text-blue">Konzert der Berliner Philharmoniker.</h5>
+        <p class="w3-text-grey w3-large">Weitere Abendprogramm-Highlights: Uraufführung der neuen Interpretation des Theaterstücks BlaBla von Regisseur LMN. Abendball.</p>
+    </div>
+
+    <div class="w3-third w3-padding-small">
+        <img src="assets/images/abendball.jpg" alt="[Menschen beim festlichen Tanz.]" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Hier kann noch etwas Schönes stehen.</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
